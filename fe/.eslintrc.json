@@ -17,6 +17,7 @@
         "react/react-in-jsx-scope": "off",
         "indent": ["error", 4],
         "comma-dangle": "off",
-        "react/jsx-indent": "off"
+        "react/jsx-indent": "off",
+        "import/prefer-default-export": "off"
     }
 }

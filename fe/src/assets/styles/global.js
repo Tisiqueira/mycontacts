@@ -13,6 +13,7 @@ export default createGlobalStyle`
         background:${({ theme }) => theme.backGroundColor};
         font-size: 16px;
 
+
     }
 
     button {

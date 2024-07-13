@@ -1,4 +1,4 @@
-import { Container, Header } from './styles';
+import { Container, Header, ListContainer } from './styles';
 
 export default function ContactsList() {
     return (
@@ -7,6 +7,10 @@ export default function ContactsList() {
                 <strong>3 contatos</strong>
                 <a href="/">Novo contato</a>
             </Header>
+
+            <ListContainer>
+                <button type="button">Nome</button>
+            </ListContainer>
         </Container>
     );
 }

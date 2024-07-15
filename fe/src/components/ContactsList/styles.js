@@ -40,6 +40,8 @@ export const Header = styled.header`
 export const ListContainer = styled.div`
     margin-top: 24px;
 
+    width: 100%;
+    max-width: 500px;
     header {
         margin-bottom: 8px;
         button {

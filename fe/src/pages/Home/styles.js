@@ -7,12 +7,33 @@ export const Container = styled.div`
     align-items: center;
 `;
 
+export const InputSearchContainer = styled.div`
+    width: 100%;
+    max-width: 500px;
+
+    input {
+        width: 100%;
+        background: #ffffff;
+        border: none;
+        border-radius: 25px;
+        height: 50px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0.04);
+        outline: 0;
+        padding: 0 16px;
+
+        &::placeholder {
+            color: #bcbcbc;
+        }
+    }
+`;
+
 export const Header = styled.header`
     width: 100%;
     max-width: 500px;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 32px;
 
 
 

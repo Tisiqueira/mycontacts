@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 // eslint-disable-next-line object-curly-newline
 import {
     Container,
@@ -20,7 +22,7 @@ export default function ContactsList() {
 
             <Header>
                 <strong>3 contatos</strong>
-                <a href="/">Novo contato</a>
+                <Link to="/new">Novo contato</Link>
             </Header>
 
             <ListContainer>
@@ -42,49 +44,9 @@ export default function ContactsList() {
                     </div>
 
                     <div className="actions">
-                        <a href="/">
+                        <Link to="/edit/1234">
                             <img src={edit} alt="Edit" />
-                        </a>
-                        <button type="button">
-                            <img src={trash} alt="Trash" />
-                        </button>
-                    </div>
-                </Card>
-
-                <Card>
-                    <div className="info">
-                        <div className="contact-name">
-                            <strong>Tiago Alves</strong>
-                            <small>instagram</small>
-                        </div>
-                        <span>tiago.siqueira@outlook.com</span>
-                        <span>(11) 99999-9999</span>
-                    </div>
-
-                    <div className="actions">
-                        <a href="/">
-                            <img src={edit} alt="Edit" />
-                        </a>
-                        <button type="button">
-                            <img src={trash} alt="Trash" />
-                        </button>
-                    </div>
-                </Card>
-
-                <Card>
-                    <div className="info">
-                        <div className="contact-name">
-                            <strong>Tiago Alves</strong>
-                            <small>instagram</small>
-                        </div>
-                        <span>tiago.siqueira@outlook.com</span>
-                        <span>(11) 99999-9999</span>
-                    </div>
-
-                    <div className="actions">
-                        <a href="/">
-                            <img src={edit} alt="Edit" />
-                        </a>
+                        </Link>
                         <button type="button">
                             <img src={trash} alt="Trash" />
                         </button>

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export default styled.button`
-    width: 100%;
     height: 52px;
     border: none;
     background: ${({ theme }) => theme.colors.primary.main};
     font-size: 16px;
+    padding: 0 16px;
     box-shadow: 0px 4px 10px rba(0, 0, 0, 0.04);
     font-weight: bold;
     color: #fff;

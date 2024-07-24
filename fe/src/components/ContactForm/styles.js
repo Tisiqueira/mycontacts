@@ -5,5 +5,10 @@ export const Form = styled.form`
 `;
 
 export const ButtonContainer = styled.div`
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 24px;
 `;

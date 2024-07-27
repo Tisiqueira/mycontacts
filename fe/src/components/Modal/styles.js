@@ -20,9 +20,11 @@ export const Overlay = styled.div`
 `;
 
 export const Container = styled.div`
-    width: 100%;
+    width: auto;
+    height: 25%;
+    max-height: 40%;
     max-width: 450px;
-    height: 50%;
+
     margin-top: 20%;
     background: #fff;
     border-radius: 4px;

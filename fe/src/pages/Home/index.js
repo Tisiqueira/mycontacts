@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Modal from '../../components/Modal';
 
 // eslint-disable-next-line object-curly-newline
 import {
@@ -10,6 +9,8 @@ import {
     Card,
 } from './styles';
 
+import Loader from '../../components/Loader';
+
 import arrow from '../../assets/images/icons/arrow.svg';
 import edit from '../../assets/images/icons/edit.svg';
 import trash from '../../assets/images/icons/trash.svg';
@@ -17,7 +18,7 @@ import trash from '../../assets/images/icons/trash.svg';
 export default function ContactsList() {
     return (
         <Container>
-            <Modal danger />
+            <Loader />
 
             <InputSearchContainer>
                 <input type="text" placeholder="Pesquisar contato" />

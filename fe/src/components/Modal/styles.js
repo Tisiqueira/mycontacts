@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Overlay = styled.div`
     background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blue(7px);
+    backdrop-filter: blur(7px);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -16,9 +16,34 @@ export const Overlay = styled.div`
 
 export const Container = styled.div`
     width: 100%;
-    height: 50%;
     max-width: 450px;
+    height: 50%;
+    margin-top: 20%;
     background: #fff;
+    border-radius: 4px;
     padding: 24px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.04);
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        margin-top: 8px;
+    }
+`;
+
+export const Footer = styled.footer`
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .cancel-button {
+        background: transparent;
+        border: none;
+        font-size: 16px;
+        margin-right: 8px;
+        color: ${({ theme }) => theme.colors.gray[200]};
+    }
 `;

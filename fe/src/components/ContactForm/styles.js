@@ -11,4 +11,8 @@ export const ButtonContainer = styled.div`
     flex-direction: column;
     align-items: center;
     margin-top: 24px;
+
+    button {
+        width: 100%;
+    }
 `;

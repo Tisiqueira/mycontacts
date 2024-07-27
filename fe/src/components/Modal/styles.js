@@ -20,9 +20,7 @@ export const Overlay = styled.div`
 `;
 
 export const Container = styled.div`
-    width: auto;
-    height: 25%;
-    max-height: 40%;
+    width: 100%;
     max-width: 450px;
 
     margin-top: 20%;
